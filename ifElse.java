@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class ifElse {
     public static void main (String [] args) {
@@ -27,5 +27,6 @@ public class ifElse {
 		// else {
 		// 	System.out.println ("Your number is not 1, 2 or 3");
 		// }
+        // inputFigure.close();
 	}
 }

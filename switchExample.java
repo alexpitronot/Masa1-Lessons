@@ -13,5 +13,6 @@ public class switchExample {
 		case 4: System.out.println ("Option 4 - Close file"); break;
 		default: System.out.println("Wrong option");
 		}
+        scan.close();
 	}
 }

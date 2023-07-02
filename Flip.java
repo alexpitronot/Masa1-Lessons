@@ -10,5 +10,6 @@ public static void main(String[] args) {
     d = n / 10 % 10;  
     s = n / 100;
     System.out.print(e + " " + d + " " + s + " \n" + (e * 100 + d * 10 + s));    
+    myScanner.close();
 }
 }
