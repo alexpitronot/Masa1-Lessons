@@ -4,6 +4,7 @@ public class Flip {
 public static void main(String[] args) {
     System.out.println("Enter 3-digit number:");
     Scanner myScanner = new Scanner(System.in);
+    // int num = 10;
     int n, e, d, s;
     n = myScanner.nextInt();
     e = n % 10;     

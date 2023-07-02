@@ -3,14 +3,17 @@
 public class ifElse {
     public static void main (String [] args) {
         
-        int a = 1, b = 2;
-        if (a < b) {
-            System.out.println ("a < b");
-        }
+        // int a = 2, b = 2;
+		// String str ="";
+		// a == b ? str = "true" : str = "false";
 
-        else {
-            System.out.println ("a > b");
-        }
+        // if (a == b) {
+        //     System.out.println ("a = b"); //Услвоие верное
+        // }
+
+        // else {
+        //     System.out.println ("a > b");
+        // }
 
 		// System.out.print ("Enter 1, 2 or 3: "); 
 		// Scanner inputFigure = new Scanner (System.in); 
