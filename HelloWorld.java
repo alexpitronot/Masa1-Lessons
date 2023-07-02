@@ -5,9 +5,10 @@ public class HelloWorld {
         // System.out.println("45");
         // System.out.print("Q");
         // System.out.print("A");
-        String $name ="Alex";
-        System.out.println("My name is " + $name);
-        
+        String _name ="Yossi";
+        System.out.println("My name is " + _name);
+
+        System.out.println();
         int age1 = 45;
         System.out.println("I'm " + age1 + " old");
     //    int x;
