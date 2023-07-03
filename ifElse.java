@@ -3,9 +3,10 @@
 public class ifElse {
     public static void main (String [] args) {
         
-        // int a = 2, b = 2;
-		// String str ="";
-		// a == b ? str = "true" : str = "false";
+        // int a = 2;
+        // int b = 2;
+        // String str = "";
+        // str = a > b ? "true" : "false";
 
         // if (a == b) {
         //     System.out.println ("a = b"); //Услвоие верное
