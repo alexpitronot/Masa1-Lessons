@@ -19,5 +19,17 @@ public class While {
         //     i++;
         // }
 
+        // int i = 1;
+        // while (i < 0) {
+        //     i++;
+        //     System.out.print(i + " ");
+        // }
+
+        // int i = 1;
+        // do {
+        //     i++;
+        //     System.out.print(i + " ");
+        // } while(i < 0);
+
     }
 }
