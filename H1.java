@@ -13,7 +13,7 @@ public class H1 {
         int c = scan.nextInt();
 
         System.out.print("Maximum is: ");
-        if (a >= b && a >= c) {
+        if (a > b && a > c) {
             System.out.println(a);
         }
 
@@ -37,7 +37,7 @@ public class H1 {
         else  {
             System.out.println(c);
         }
-        
+
         double avrg;
         avrg = (a + b + c) / 3;
         System.out.println("Average is: " + (avrg));
@@ -91,8 +91,7 @@ public class H1 {
         String username = "Admin";
         String password = "P@ssword";
         String name;
-        String pass;
-        
+        String pass;        
 
         
        System.out.print("Username: ");
