@@ -18,14 +18,14 @@ public class break_continue {
         //     i++;
         // }
 
-        // while(i <= 5){
-        //     System.out.println(i + ": running!");
-        //     if (i == a) { 
-        //         i+=2;
-        //         continue;                
-        //     }
-        //     i++;
-        // }
+        while(i <= 5){
+            System.out.println(i + ": running!");
+            if (i == a) { 
+                i+=2;
+                continue;                
+            }
+            i++;
+        }
     }
 
 }
