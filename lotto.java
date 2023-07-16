@@ -1,3 +1,5 @@
+// import java.util.Random;
+
 public class lotto {
     public static void main(String[] args) {
         int number1 = (int) (Math.random() * 34) + 1;
@@ -29,28 +31,13 @@ public class lotto {
 
         System.out.println("Random Numbers: " + number1 + ", " + number2 + ", " + number3 + ", " + number4 + ", " + number5 + ", " + number6);
 
-        // int a = 1 + (int) (Math.random()*34);       
-        // System.out.println ("from 1 to 34: " + a);
-
-        // int b = 1 + (int) (Math.random() *34); 
-        // System.out.println ("from 1 to 34: " + b);
-
-        // int c = 1 + (int) (Math.random() *34); 
-        // System.out.println ("from 1 to 34: " + c);
-
-        // int d = 1 + (int) (Math.random() *34); 
-        // System.out.println ("from 1 to 34: " + d);
-
-        // int e = 1 + (int) (Math.random() *34); 
-        // System.out.println ("from 1 to 34: " + e);
-
-        // int f = 1 + (int) (Math.random() *34); 
-        // System.out.println ("from 1 to 34: " + f);
-
-        // System.out.println (" ");
-
-        // int g =  1 + (int) (Math.random() *7); 
-        // System.out.println ("from 1 to 7: " + g);
+        // Random random = new Random();
+        // int i=1;
+        // while (i <= 6) {
+        //     int randomNumber = random.nextInt(34) + 1; // Generate numbers between 1 and 49
+        //     System.out.println("Number " + i+ ": " + randomNumber);
+        //     i++;
+        // }
 
 }
 }
