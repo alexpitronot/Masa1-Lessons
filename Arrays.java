@@ -1,7 +1,9 @@
 public class Arrays {
     public static void main(String[] args) {
         int[] array = { 5, 17, 350 };
-        int k = array.length;
+        String [] names = { "Alex","David","Natali","Anna" };
+        double[] array2 = { 2, 5, 7.45, 8.6, 0.67, 7.89 };
+        int k = names.length;
         System.out.println(k);
 
         // int[] array1 = new int[3];
