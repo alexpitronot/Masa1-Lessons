@@ -129,12 +129,18 @@ import random
 #     print(f'{year} это высокосный год')
 
 
-print("Введите число, чтобы узнать, состоит ли число из однаковых цифр.")
-number = int(input())
-last_digit = number % 10 # saigo no keta означает последняя цифра
-first_digit = number // 10 # ichi keta-me означает первая цифра
+# print("Введите число, чтобы узнать, состоит ли число из однаковых цифр.")
+# number = int(input())
+# last_digit = number % 10 # означает последняя цифра
+# first_digit = number // 10 # означает первая цифра
 
-if last_digit == first_digit:
-    print("Да, состоит.")
-else:
-    print("Нет, не состоит.")
+# if last_digit == first_digit:
+#     print("Да, состоит.")
+# else:
+#     print("Нет, не состоит.")
+
+# chislo = int(input('Введите число: '))
+# if 10 <= chislo <= 99 and chislo // 10 == chislo % 10:
+#     print("да")
+# else:
+#      print("нет")
