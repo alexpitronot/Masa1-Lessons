@@ -31,14 +31,33 @@ public class lotto {
 
         // System.out.println("Random Numbers: " + number1 + ", " + number2 + ", " + number3 + ", " + number4 + ", " + number5 + ", " + number6);
 
+        // Random chisla = new Random();
+        // int i=1;
+        // while (i <= 6) {
+        //     int randomNumber = chisla.nextInt(34) + 1; // Generate numbers between 1 and 34
+        //     for (int j=1; j<1; j++) {}
+        //     System.out.println("Number " + i+ ": " + randomNumber);
+        //     i++;
+        // }
+
         Random chisla = new Random();
         int i=1;
-        while (i <= 6) {
-            int randomNumber = chisla.nextInt(34) + 1; // Generate numbers between 1 and 34
-            for (int j=1; j<1; j++) {}
-            System.out.println("Number " + i+ ": " + randomNumber);
-            i++;
-        }
+        int[] values = new int[7];
+        boolean not_in_array;
 
+        while (i <= 6) {
+            not_in_array = true;
+            int randomNumber = chisla.nextInt(34) + 1; // Generate numbers between 1 and 34
+            for (int b : values){
+                if (randomNumber == b){
+                    not_in_array = false;
+                }
+            }
+            if (not_in_array){
+                System.out.println("Number " + i+ ": " + randomNumber);
+                values[i] = randomNumber;
+                i++;
+            }
+      }
 }
 }
