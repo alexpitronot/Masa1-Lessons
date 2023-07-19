@@ -35,6 +35,20 @@ import random
 
 # while
 
+# a = 0
+# while a >= 0:
+# 	if a == 7:
+# 		break
+# 	a += 1
+# 	print("A")
+
+# a = -1
+# while a < 10:
+# 	a += 1
+# 	if a >= 7:
+# 		continue
+# 	print("A")
+
 # number_of_bugs = 1
 # while number_of_bugs < 5:
 #     number_of_bugs +=1 # number_of_bugs = number_of_bugs + 1
@@ -90,6 +104,12 @@ import random
 # for i in range(8):    
 #     print("*"*i)
   
+# adj = ["red", "big", "tasty"]
+# fruits = ["apple", "banana", "cherry"]
+
+# for x in adj:
+#   for y in fruits:
+#     print(x, y)
 
 # String
 
@@ -127,3 +147,7 @@ import random
 # print(message.upper())
 # print(message.lower())
 # print(message.find('s'))
+
+# name = 'Alex'
+# greeting = f"Hello, {name}! How are You?"
+# print(greeting)
