@@ -24,7 +24,7 @@ import random
 #     print("Yes, x is not 21")
 
 # friend_is_free = False
-# mother_is_home = False
+# mother_is_home = True
 
 # if friend_is_free:
 #     print("Going to the movie")
@@ -40,19 +40,21 @@ import random
 # 	if a == 7:
 # 		break
 # 	a += 1
-# 	print("A")
+# 	print("A - ",a)
 
 # a = -1
 # while a < 10:
 # 	a += 1
 # 	if a >= 7:
 # 		continue
-# 	print("A")
+# 	print("A - ",a)
 
-# number_of_bugs = 1
-# while number_of_bugs < 5:
+# number_of_bugs = 0
+# while number_of_bugs < 4:
 #     number_of_bugs +=1 # number_of_bugs = number_of_bugs + 1
-#     print("Not Critical")
+#     print(number_of_bugs, " - Not Critical")
+# number_of_bugs+=1
+# print(number_of_bugs, " - Critical")
 
 # while True:
 #     print("Hi")
@@ -72,25 +74,25 @@ import random
 # i=1
 # while i<75:
 #     if i%2 != 0:
-#       print(i,end =" ") # use end = " " to print in the same line
+#       print(i,end = "\t") # use end = " " to print in the same line
 #     i += 1
 
 # for
 
-# for i in [0,1,2]:
+# for i in [0,1,2,3]: # список = list
 #     print(i*5, end = " ")
 
 # print("\n")
 # for i in ['Ben gurion', 'Sharet', 'Begin', 'Rabin']:
-#     print(i+" was Israel's prime minister")
+#     print(i + " was Israel's prime minister")
 
-# for i in range(10):
+# for i in range(1,10):
 #      print(i, end = " ")
 
-# for i in range(2,10,1):
+# for i in range(2,10,2):
 #     print(i, end = " ")
 
-# for i in range(3,75,5):
+# for i in range(1,75,2):
 #     print(i, end = " ")
 
 # for i in range(21):
@@ -109,6 +111,8 @@ import random
 
 # for x in adj:
 #   for y in fruits:
+#     # if x==y:
+#     #   print("Есть значение одинаковое в обоих списках")
 #     print(x, y)
 
 # String
@@ -135,8 +139,9 @@ import random
 
 
 # greetings ='Hello class QA'
-# print(greetings[0:2])
-# print(greetings[1:7])
+# print(greetings[0:3]) # Hel
+# print(greetings[1:7]) # ello c
+# print(greetings[-1])
 # print(greetings[-5:-1])
 
 # print(greetings[-1::-1]) # что распечатается?
@@ -146,8 +151,47 @@ import random
 # print(len(message))
 # print(message.upper())
 # print(message.lower())
-# print(message.find('s'))
+# print(message.find('a'))
 
 # name = 'Alex'
 # greeting = f"Hello, {name}! How are You?"
 # print(greeting)
+
+# Измените строку 'кот', записав ее символы в обратном порядке. Выведите результат на экран.
+
+# greetings = "кот"
+# print(greetings[-1::-1])
+
+# Дана строка '0123456789'. Удалите из нее первый, пятый и последний символы. Выведите результат на экран.
+
+# greetings = "0123456789"
+# print(greetings[1:4]+greetings[5:-1])
+
+# Даны две переменные: a = 73 и b = 95. Используя метод форматирования строк, выведите на экран их сумму и произведение в форматах 'a + b = c' и 'a*b = c’.
+
+# a = 73
+# b = 75
+# sum = a + b 
+# print(f"{a} + {b} = {sum}")
+# print(f"{a} * {b} = {a * b}")
+
+# Подсчитайте, сколько видов букв присутствует в строке 'синхрофазотрон', и выведите результаты на экран.
+
+input_string = 'синхрофазотрон'
+unique_letters = []  
+
+for letter in input_string:          
+    if letter not in unique_letters:
+        unique_letters.append(letter)
+
+print("Количество различных букв в строке:")
+for letter in unique_letters:
+    count = 0
+    for char in input_string:
+        if char == letter:
+            count += 1
+    print(f"{letter}: {count}")
+
+
+
+
