@@ -144,3 +144,22 @@ import random
 #     print("да")
 # else:
 #      print("нет")
+
+
+# phrase = input("Введите фразу: ")
+# change_phrase = phrase.replace(" ", "").lower()
+
+# if change_phrase == change_phrase[-1::-1]:
+#     print("Это палиндром")
+# else:
+#     print("Это не палиндром")
+
+# input_string = input("Enter your string: ").lower()
+# symbols = "!@#$%^&*()-_=+\"№;:?*.,/\\| "
+# for s in symbols:
+#     input_string = input_string.replace(s,"")
+# reversed_string = input_string[-1::-1]
+# if (input_string == reversed_string):
+#     print("Palindrom")
+# else:
+#     print("Not palindrom")
