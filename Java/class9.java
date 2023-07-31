@@ -66,23 +66,23 @@ public class class9 {
 
     public static void main(String[] args) {
         
-        double number1 = 4;
-        int exponent1 = 3;
-        double result1 = power(number1, exponent1);
+        double number1 = 5; // Первое число
+        int exponent1 = 2; // Первая степень
+        double result1 = power(number1, exponent1); // Первое число в первой степени
        
-        double number2 = 6;
-        int exponent2 = 2;
-        double result2 = power(number2, exponent2);
+        double number2 = 7; // Второе число
+        int exponent2 = 3; // Вторая степень
+        double result2 = power(number2, exponent2); // Второе число во второй степени
        
         double sum = result1 + result2;
        
         System.out.println("Result: " + sum);
     }
 
-    public static double power(double base, int exponent) {
+    public static double power(double base, int exp) { // Получаем 2 значения: первый аргумент - будет само число, второй аргумент - будет степень
         double result = 1;
-        for (int i = 0; i < exponent; i++) {
-            result *= base;
+        for (int i = 0; i < exp; i++) {
+            result *= base; // Возводим в степень
         }
         return result;
     }
