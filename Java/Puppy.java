@@ -11,7 +11,7 @@ public class Puppy {
    }
 
    public void setAge( int age ) {
-      puppyAge = age;
+      this.puppyAge = age;
    }
 
    public int getAge( ) {

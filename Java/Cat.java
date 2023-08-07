@@ -3,7 +3,7 @@ class Cat{
  private String name;
  private String color;
 
-  public Cat(){
+ public Cat(){
 }
 
  public Cat(String x, String y){
