@@ -7,8 +7,8 @@ class Cat{
 }
 
  public Cat(String x, String y){
-    name = x;
-    color = y;
+    this.name = x;
+    this.color = y;
 }
  
  public String getName(){
