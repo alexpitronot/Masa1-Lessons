@@ -18,3 +18,14 @@ public class Dog {
     void sleeping() { // метод: спать
     }
 }
+
+class Dobermann extends Dog {
+ 
+    @Override
+    public void barking()
+    {
+        super.barking();
+        System.out.println("Bark!");
+    }
+ 
+}
