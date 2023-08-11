@@ -43,8 +43,8 @@ class Rectangle extends Shape {
 
 public class Main {
     public static void main(String[] args) {
-        Shape circle = new Circle(5);
-        Shape rectangle = new Rectangle(4, 6);
+        Shape circle = new Circle(3);
+        Shape rectangle = new Rectangle(7, 9);
 
         System.out.println("Circle Area: " + circle.calculateArea());
         System.out.println("Circle Perimeter: " + circle.calculatePerimeter());

@@ -21,10 +21,10 @@ public class Dog {
 
 class Dobermann extends Dog {
  
-    @Override
+    @Override // Перегрузка
     public void barking()
     {
-        super.barking();
+        super.barking(); // super - обращение к родительскому классу
         System.out.println("Bark!");
     }
  

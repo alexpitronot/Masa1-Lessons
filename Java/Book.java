@@ -1,8 +1,8 @@
 class Book {
-    private String title;
+    public String title;
     private String author;
 
-    public Book(String title, String author) {
+    public Book(String title, String author) { // Конструктор
         this.title = title;
         this.author = author;
     }

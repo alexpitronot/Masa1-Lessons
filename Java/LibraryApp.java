@@ -6,8 +6,8 @@ public class LibraryApp {
         Book book3 = new Book("1984", "George Orwell");
 
         reader1.takeBook(3);
-        reader1.takeBook("Harry Potter and the Sorcerer's Stone", "To Kill a Mockingbird", "1984");
-        reader1.takeBook(book1, book2, book3);
+        reader1.takeBook("Harry Potter and the Sorcerer's Stone", "To Kill a Mockingbird", "1984","Java"); // Конструктор 1
+        reader1.takeBook(book1, book2, book3); // Конструктор 2
 
         reader1.returnBook("Harry Potter and the Sorcerer's Stone", "To Kill a Mockingbird", "1984");
         reader1.returnBook(3);

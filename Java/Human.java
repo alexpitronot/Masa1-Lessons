@@ -1,5 +1,5 @@
-// public abstract class Human {
-public class Human {
+public abstract class Human {
+// public class Human {
     private String name;
     public String getName () {
         return name;
