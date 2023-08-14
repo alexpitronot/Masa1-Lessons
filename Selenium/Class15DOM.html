@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Пример DOM</title>
+</head>
+<body>
+  <p id="myParagraph">Это абзац текста.</p>
+
+    <button onclick="paragraph.innerHTML = 'Новый текст абзаца!'">Изменить текст</button>
+
+  <script>
+    // Получаем элемент абзаца по его id
+    let paragraph = document.getElementById("myParagraph");
+    // // Изменяем текст абзаца
+    // paragraph.innerHTML = "Новый текст абзаца!";
+  </script>
+</body>
+</html>

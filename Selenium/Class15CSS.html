@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Пример использования CSS</title>
+        <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    #header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      background-color: #444;
+      text-align: center;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 20px;
+      font-size: 1.3em;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    a:hover {
+     color: rgb(238, 79, 79);
+     text-decoration: underline;
+    }
+
+    a#special {
+        font-size: 2em;
+        color: darkred;
+        display: block;
+        text-align: center;
+        padding: 15px;
+        border: 5px dotted blueviolet;
+        width: 350px;
+        margin: auto;
+        background-color: gold;
+        border-radius: 20px;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 10px;
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 20px;
+      background-color: #fff;
+    }
+
+    .box h2 {
+      color: #333;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #2dfc1b;
+      color: red;
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Пример страницы с CSS</h1></div>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <a id="special" href="https://htmlcheatsheet.com/" target="_blank">Использование HTML</a>
+        <br>
+        <a id="special" href="https://htmlcheatsheet.com/js/" target="_blank">Использование JS</a> 
+        <br>  
+        <a id="special" href="https://htmlcheatsheet.com/css/" target="_blank">Использование CSS</a> 
+
+        <div class="container">
+            <div class="box">
+                <h2>Заголовок блока</h2>
+                <p>Это текст в блоке с использованием CSS-стилей.</p>
+                <a href="#" class="button">Подробнее</a>
+            </div>
+
+            <div class="box">
+                <h2>Еще один блок</h2>
+                <p>Еще один блок с другим текстом.</p>
+                <a href="#" class="button">Подробнее</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2023 Компания. Все права защищены.</p>
+        </footer>
+    </body>
+</html>
